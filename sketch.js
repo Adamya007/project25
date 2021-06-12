@@ -39,6 +39,6 @@ function keyPressed() {
 
 if (keyCode === UP_ARROW) {
 
-Matter.Body.applyForce(paperObj.paper,paperObj.paper.position ,{x:130,y: -180})
+Matter.Body.applyForce(paperObj.paper,paperObj.paper.position ,{x:130,y: -165})
 }
 };
